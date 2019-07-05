@@ -1,0 +1,68 @@
+#avatar{
+    height: 280px;
+    width: 280px;
+    align-self:center;
+}
+
+#header{
+    background:Turquoise;
+    height: 250px
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium';
+    font-size: 200%
+}
+
+h3{
+    font-family: 'Franklin Gothic Medium';
+}
+
+.education{
+    width: 100%;
+}
+
+#info{
+    width: 30%
+}
+
+#title{
+    color: Chartreuse;
+    font-family: gabriola;
+    font-size: 200%;
+    font-weight: bolder;
+    width: 20%
+    
+}
+
+.txt{
+    font-family: comic sans ms;
+    font-size: 20px;
+    background-color:PaleTurquoise;
+    
+}
+
+#frame{
+    background-color: Gold;
+    position: absolute;
+    height: 350px;
+    width: 350px;
+    right: 80px;
+    top: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    background: url(comp.jpg)
+}
+
+.sc{
+    color: Chartreuse;
+    font-family: gabriola;
+    font-size: 200%;
+    font-weight: bolder;
+    width: 50%;
+    text-align: center
+
+}
