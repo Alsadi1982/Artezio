@@ -1,0 +1,20 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"></body>
+<html>
+	<head>
+        <script src="task2.js"></script>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	</head>
+	<body>
+		X1<input type="text" id="x1"><br>
+		X2<input type="text" id="x2"><br>
+		<input type="radio" name="point" value="point1" id="sm" checked>
+		<label for="sm">Сумма всех чисел от х1 до х2</label><br>
+		<input type="radio" name="point" value="point2" id="mult">
+		<label for="mult">Произведение всех чисел от х1 до х2</label><br>
+		<input type="radio" name="point" value="point3" id="simplenumber">
+		<label for="mult">Простые числа от х1 до х2</label><br>
+		<input type="button" value="RUN" onclick=ButtonClick()>
+		<input type="button" value="Очистить" onclick=CleanUp()><br>
+		<div id="result"></div>
+    </body>
+    </html>
